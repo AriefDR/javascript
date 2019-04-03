@@ -1,5 +1,12 @@
 function panggiRegexp() {
-    let str = "abcdefghijklmnopqrstuvwxyz";
-    return str.search(/a/);
+    let str = "bcdaefghijklmnopqrstuvwxyz-abcdefghijklmnopqrstuvwxyz";
+    // return str.search(/a/);
+    // console.log(str.search(/K/))
+    // console.log(str.search(/K/i))
+    // console.log(str.search(/k/i))
+
+    //flags g
+    console.log(str.match(/c/g));   
 }
-console.log(panggiRegexp());
+
+panggiRegexp()
