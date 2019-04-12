@@ -1,9 +1,9 @@
-function panggilJoin(){
-    var kota = ["Jakrta","Medan","Surabaya","Papua"];
+function panggilJoin() {
+    var kota = ["Jakrta", "Medan", "Surabaya", "Papua"];
     console.log(kota);
 
     var res = kota.join(","); // mengubah array menjadi string
-    return res 
+    return res
 }
 
 console.log(panggilJoin())
